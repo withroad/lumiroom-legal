@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LumiRoom 루미메이트 운영정책 및 정산정책</title>
+  <style>
+    :root {
+      --bg: #09111F;
+      --surface: #0F1B2E;
+      --surface2: #152035;
+      --text: #E6EDF6;
+      --muted: #9FB2C8;
+      --cyan: #00E5FF;
+      --line: #1E2E45;
+      --warn-bg: #1A1200;
+      --warn-border: #7A5700;
+      --warn-text: #FFD166;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, "Segoe UI", "Malgun Gothic", "맑은 고딕", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 48px 24px 100px; }
+    header { border-bottom: 2px solid var(--cyan); padding-bottom: 24px; margin-bottom: 36px; }
+    h1 { color: var(--cyan); font-size: 1.95rem; margin-bottom: 8px; letter-spacing: -0.5px; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    h2 {
+      color: var(--cyan);
+      font-size: 1.15rem;
+      margin: 44px 0 14px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--line);
+    }
+    h3 { color: var(--text); font-size: 1rem; margin: 20px 0 10px; }
+    p { margin-bottom: 12px; }
+    ul, ol { padding-left: 22px; margin-bottom: 12px; }
+    li { margin-bottom: 7px; }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.93rem; }
+    th, td { border: 1px solid var(--line); padding: 10px 14px; text-align: left; vertical-align: top; }
+    th { background: var(--surface); color: var(--cyan); font-weight: 600; }
+    tr:nth-child(even) td { background: var(--surface2); }
+    .note { color: var(--muted); font-size: 0.88rem; margin-top: 8px; }
+    .warn {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      border-left: 4px solid var(--warn-border);
+      color: var(--warn-text);
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin: 16px 0;
+      font-size: 0.93rem;
+    }
+    .important-box {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--cyan);
+      padding: 16px 20px;
+      border-radius: 4px;
+      margin: 16px 0;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>루미메이트 운영정책 및 정산정책</h1>
+    <div class="meta">
+      시행일자: 2026년 6월 17일 &nbsp;·&nbsp; 최종 수정일: 2026년 6월 17일 &nbsp;·&nbsp; 버전: 1.0
+    </div>
+  </header>
+
+  <p>
+    본 정책은 LumiRoom(이하 "회사" 또는 "서비스")에서 1:1 채팅 서비스를 제공하는
+    루미메이트(방 생성자, 이하 "루미메이트")의 활동 자격, 수익 정산 방식, 보류·환수·세금 처리 등을 규정합니다.
+    본 정책은 <a href="./terms_of_service_ko.html">이용약관</a>과 함께 적용됩니다.
+  </p>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>1. 루미메이트 자격</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <ol>
+    <li>루미메이트로 활동하려면 회사의 사전 심사를 통과해야 합니다.</li>
+    <li>회사는 등록 신청자에 대해 필요 시 신분 확인 절차를 요청할 수 있습니다.</li>
+    <li>심사를 통과한 이용자에 한해 유료 채팅 서비스를 개설·제공할 수 있습니다.</li>
+  </ol>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>2. 정산 대상</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <p>
+    정산 대상은 루미메이트가 제공한 유료 채팅을 통해 발생한 수익입니다.
+    루미게스트(방 입장자)가 결제한 포인트 중 채팅 이용으로 확정된 금액을 기준으로 산정됩니다.
+  </p>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>3. 플랫폼 수수료</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <p>정산 금액은 아래 수수료를 공제한 후 산정됩니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>구분</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Google Play 수수료</td>
+        <td>인앱결제에 부과되는 Google Play 수수료 (15~30%)</td>
+      </tr>
+      <tr>
+        <td>서비스 수수료</td>
+        <td>회사가 정하는 플랫폼 운영 수수료 (실제 확정 시 본 정책에 업데이트)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="note">※ 구체적인 서비스 수수료율은 확정되는 대로 본 정책 및 앱 내 공지를 통해 안내합니다.</p>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>4. 지급 주기 및 최소 정산 금액</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <ul>
+    <li><strong>지급 주기</strong>: 매월 1일을 기준으로 전월 정산을 진행하며, 정산 신청 후 <strong>5영업일</strong> 이내에 지급합니다.</li>
+    <li><strong>최소 정산 금액</strong>: 정산 가능 금액이 <strong>10,000원 이상</strong>인 경우에 한해 지급되며, 미만 금액은 다음 정산 주기로 이월됩니다.</li>
+  </ul>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>5. 정산 보류 사유</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <p>다음 각 호의 사유가 있는 경우 해당 금액의 정산이 보류될 수 있습니다.</p>
+  <ul>
+    <li>해당 수익과 관련하여 신고가 접수되어 검토 중인 경우</li>
+    <li>환불 요청이 접수되어 처리 중인 경우</li>
+    <li>부정행위(부정 결제, 자전거래 등)가 의심되는 경우</li>
+    <li>이용약관 또는 본 운영정책 위반이 확인되거나 의심되는 경우</li>
+  </ul>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>6. 환수</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <p>
+    이미 지급된 정산금이라도 결제 취소, 환불, 부정수익 발생 등의 사유가 확인되는 경우,
+    회사는 해당 금액을 환수하거나 차기 정산금에서 공제할 수 있습니다.
+  </p>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>7. 탈퇴 시 정산</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <div class="important-box">
+    루미메이트가 탈퇴하는 경우, 잔여 수익은 탈퇴일로부터 <strong>30일 이내</strong>에 정산 신청을 통해 지급받을 수 있습니다.
+    기간 내 신청하지 않은 잔여 수익은 회사의 정산 정책에 따라 처리될 수 있습니다.
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>8. 세금</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <p>
+    정산 수익은 「소득세법」에 따라 기타소득 등으로 원천징수될 수 있습니다.
+    원천징수가 적용되는 경우 해당 세액을 공제한 후 지급되며, 세부적인 세무 처리 및 신고 의무에 관한
+    문의는 세무 전문가 또는 관할 세무서를 통해 별도로 확인하시기 바랍니다.
+  </p>
+
+  <div class="warn">
+    ⚠️ 본 정책의 수수료율, 지급 주기 등 세부 기준은 서비스 운영 상황 및 관련 정책 확정에 따라
+    변경될 수 있으며, 변경 시 앱 내 공지 및 본 페이지를 통해 안내합니다.
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <h2>9. 문의</h2>
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <p>
+    정산 및 루미메이트 운영에 관한 문의는 <a href="mailto:myungmoc@gmail.com">myungmoc@gmail.com</a>으로
+    접수하실 수 있습니다.
+  </p>
+
+  <footer>
+    <p>© 2026 LumiRoom (최명모). 본 정책은 이용약관 제10조(루미메이트 계정)에 따른 운영·정산 세부 정책입니다.</p>
+    <p style="margin-top: 6px;">문의: <a href="mailto:myungmoc@gmail.com">myungmoc@gmail.com</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
