@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LumiRoom 약관 및 정책</title>
+  <style>
+    :root {
+      --bg: #09111F;
+      --surface: #0F1B2E;
+      --surface2: #152035;
+      --text: #E6EDF6;
+      --muted: #9FB2C8;
+      --cyan: #00E5FF;
+      --line: #1E2E45;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, "Segoe UI", "Malgun Gothic", "맑은 고딕", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 64px 24px 100px; }
+    header { border-bottom: 2px solid var(--cyan); padding-bottom: 24px; margin-bottom: 36px; }
+    h1 { color: var(--cyan); font-size: 2rem; margin-bottom: 8px; letter-spacing: -0.5px; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .links { list-style: none; padding: 0; margin: 0; }
+    .links li { margin-bottom: 16px; }
+    .links a {
+      display: block;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px 22px;
+      color: var(--text);
+      text-decoration: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .links a:hover { border-color: var(--cyan); background: var(--surface2); }
+    .links .title { color: var(--cyan); font-size: 1.1rem; font-weight: 600; }
+    .links .desc { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+    footer { color: var(--muted); font-size: 0.85rem; margin-top: 48px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>LumiRoom 약관 및 정책</h1>
+      <p class="meta">LumiRoom 서비스의 개인정보처리방침과 이용약관을 안내합니다.</p>
+    </header>
+
+    <ul class="links">
+      <li>
+        <a href="privacy_policy_ko.html">
+          <div class="title">개인정보처리방침</div>
+          <div class="desc">수집·이용 항목, 보관 기간, 이용자 권리 안내</div>
+        </a>
+      </li>
+      <li>
+        <a href="terms_of_service_ko.html">
+          <div class="title">이용약관</div>
+          <div class="desc">서비스 이용 조건, 결제·환불, 이용자 의무 안내</div>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      © LumiRoom. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
